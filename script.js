@@ -102,12 +102,6 @@ function move() {
   }
 }
 
-//Test moving
-// setInterval(() => {
-//   move(); // move first
-//   draw(); // Then draw again position
-// }, 200);
-
 //start game function
 function startGame() {
   gameStarted = true; // keep track of a running game
@@ -119,8 +113,6 @@ function startGame() {
     draw();
   }, gameSpeedDelay);
 }
-
-// stateGame();
 
 //keypress event listener
 function handleKeyPress(event) {
