@@ -20,7 +20,11 @@ body,
 .snake {
     background-color: #414141;
 }
-
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
 #game-board {
     border-radius: 100px;
     display: grid;
