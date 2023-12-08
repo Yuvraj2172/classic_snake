@@ -20,11 +20,13 @@ body,
 .snake {
     background-color: #414141;
 }
-.outer{
+
+.outer {
     display: flex;
     justify-content: center;
     align-items: start;
 }
+
 #game-board {
     border-radius: 100px;
     display: grid;
@@ -103,4 +105,8 @@ body,
 #logo {
     position: absolute;
 
+}
+
+.author {
+    margin: 15px;
 }
